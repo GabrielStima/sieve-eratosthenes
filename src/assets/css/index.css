@@ -2,6 +2,8 @@
     --principal-color: #4F000B;
     --second-color: #FFFFFF;
     --third-color: #111111;
+    --fourth-color: #720026;
+    --fifth-color: #C2C2C2;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -9,6 +11,7 @@ body {
     font-family: var(--font-family);
     color: var(--third-color);
     overflow-x: hidden;
+    margin: 0;
 }
 
 .input {

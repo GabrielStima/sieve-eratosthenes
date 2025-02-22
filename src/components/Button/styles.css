@@ -2,7 +2,7 @@
     border: none;
     padding: 12px 18px;
     border-radius: 5px;
-    margin-left: 10px;
+    margin: 10px;
     background-color: var(--principal-color);
     color: var(--second-color);
     cursor: pointer;
@@ -13,7 +13,13 @@
     }
 
     &:hover {
-        background-color: #720026;
+        background-color: var(--fourth-color);
         color: var(--second-color);
+    }
+
+    &:disabled {
+        background-color: var(--fifth-color);
+        color: var(--second-color);
+        cursor: default;
     }
 }

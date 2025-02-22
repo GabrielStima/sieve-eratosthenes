@@ -1,9 +1,14 @@
 .section-container {
     display: flex;
-    height: 70vh;
+    min-height: 70vh;
     align-items: center;
     padding: 0 200px;
     gap: 150px;
+
+    &.other-color {
+        background-color: var(--principal-color);
+        color: var(--second-color);
+    }
 
     @media screen and (max-width: 1200px) {
         padding: 0 100px;
