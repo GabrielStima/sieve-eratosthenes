@@ -73,7 +73,7 @@ function App() {
               <Button disabled={step !== 0} onClick={() => handleNumber() ? nextStep() : alert('Numero menor que 2')}>Start</Button>
             </div>
           </div>
-          <div>
+          <div style={{display: `${window.screen.width < 900 ? 'none' : 'block'}`}}>
             <img src={gif} alt="Apresentação visual do algoritimo" />
           </div>
         </Section>
