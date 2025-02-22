@@ -1,0 +1,19 @@
+.button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: var(--principal-color);
+    color: var(--second-color);
+    cursor: pointer;
+
+    &.other-color {
+        background-color: var(--second-color);
+        color: var(--principal-color);
+    }
+
+    &:hover {
+        background-color: #720026;
+        color: var(--second-color);
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    height: 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        border-top: .1rem solid var(--principal-color);
+        padding: 30px 0;
+
+        a {
+            text-decoration: none;
+            color: var(--third-color);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        font-size: 12px;
+        
+        .footer-content {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            svg {
+                width: 20px;
+            }
+        }
+    }
+}

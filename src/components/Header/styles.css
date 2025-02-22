@@ -1,0 +1,12 @@
+.header-img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: .1rem solid var(--principal-color);
+
+    img {
+        width: 143.5px;
+        height: 46.7px;
+        padding: 1rem 0;
+    }
+}
