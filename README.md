@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">This project is intended to be part of my portfolio. With this project, I intend to improve my basic React skills by creating a landpage that teaches how the Eratosthenes sieve algorithm works.</p>
+<p align="left">This project is intended to be part of my portfolio. With this project, I intend to improve my basic React skills by creating a landpage that teaches how the Eratosthenes sieve algorithm works. AI was not used ❌</p>
 
 ###
 
