@@ -23,6 +23,33 @@
 
 ###
 
+<h2 align="left">Application</h2>
+
+###
+
+<p align="left">Application created using Vite</p>
+
+ - `npm run dev` : Run the development environment; 
+
+###
+
+<h3 align="left">Dependencies</h3>
+
+###
+
+ - `react` : `^19.0.0`; 
+ - `react-dom` : `^19.0.0`; 
+
+###
+
+<h3 align="left">To run the project</h3>
+
+###
+
+<p align="left">To run this project you just need to download the project and run <code>npm run dev</code>.</p>
+
+###
+
 <h2 align="left">I code with</h2>
 
 ###
